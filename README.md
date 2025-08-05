@@ -1,8 +1,22 @@
-# Balancing Mod for EU4 Multiplayer rounds
+# About 
 
+Balancing Mod for EU4 Multiplayer rounds
 It will include
 
-## Quality of Life Changes
+- [Quality of Life Changes](#quality-of-life-changes)
+- [General Changes](#general-changes)
+  - [Prosperity](#prosperity)
+  - [Buildings](#buildings)
+  - [Tech](#tech)
+  - [Terrain Modifiers](#terrain-modifiers)
+  - [Estates](#estates)
+  - [Natives](#natives)
+  - [Monuments / Great Projects](#monuments--great-projects)
+- [Starting Conditions](#starting-conditions)
+
+---
+
+# Quality of Life Changes
 
 - Can ally someone at any opinion level  
 - Will get **100% warscore** after **1 year** of full occupying a nation  
@@ -13,16 +27,16 @@ It will include
 
 ---
 
-## General Changes
+# General Changes
 
-### Prosperity
+## Prosperity
 - Goods Produced: **25%** → **15%**  
 - Development Cost: **–10%** → **–5%**  
 - **Encourage Development Edict**:  
   - Development Cost: **–10%** → **–25%**  
   - Build Time: *(unspecified)*  
 
-### Buildings
+## Buildings
 - **Temples**: Tax: **40%** → **50%**, plus **1% local missionary strength**  
 - **Cathedral**: Tax: **60%** → **100%**  
 - **Regimental Camp**: Forcelimit: **1** → **0.75**  
@@ -32,10 +46,10 @@ It will include
 - **Manufactories**: Goods Produced: **1** → **0.8**  
 - **Soldiers House Hold**: Local Manpower: **75%** → **60%**  
 
-### Tech
+## Tech
 - Admin Tech **17**, **23**, & **27**: Development Cost Modifier: **–10%** → **–5%**  
 
-### Terrain Modifiers
+## Terrain Modifiers
 - **Jungle**: Development cost: **+35%** → **+30%**  
 - **Desert**: **+50%** → **+35%**  
 - **Coastal Desert**: **+35%** → **+20%**  
@@ -44,15 +58,15 @@ It will include
 - **Straight Crossings** added (e.g. between Kent and Calais); more to follow  
 - Development cost malus for Tropical and Arid provinces is **removed**  
 
-### Estates
-#### Cossack Estate
+## Estates
+### Cossack Estate
 - Cavalry combat ability from estate: **+20%** → **+10%**  
 - Cavalry cost from estate: **–20%** → **–10%**  
 
-### Natives
+## Natives
 - Natives outside of Mexico and Peru have been **removed**, including from Australia  
 
-### Monuments / Great Projects
+## Monuments / Great Projects
 - **Golden City** (Hungary):  
   - Interest per annum: **–0.5 & –1** → **–0.2 & –0.5**  
 - **Baku Atesgesh** (Zoroastrian monument in Persia):  
@@ -62,6 +76,6 @@ It will include
 
 ---
 
-### Starting Conditions
+## Starting Conditions
 - **All African nations** start with **Tech Level 3**
 
