@@ -1,6 +1,9 @@
+name="BalanceOfPowerMod_v0.1"
 version="1.37.5.0"
+picture="thumbnail.png"
 tags={
 	"Balance"
+	"Multiplayer"
 }
-name="BalanceOfPowerMod_v0.1"
 supported_version="v1.37.5.0"
+remote_file_id="3542644146"
