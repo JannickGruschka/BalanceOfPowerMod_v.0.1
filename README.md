@@ -42,12 +42,11 @@ A Europa Universalis IV mod with major balance and QoL improvements.
 
 ### Encourage Development Edict
 
-- Development Cost modifier: **–10%** → **–25%**  
-- Build Time: *(no change specified)*  
+- Development Cost modifier: **–10%** → Build Time: **–25%**    
 
 ### Buildings
 
-- **Temples**: Tax + local missionary strength  
+- **Temples**: + 1% local missionary strength  
 - **Cathedral**: Tax: **60%** → **80%**  
 - **University**: Dev Cost: **–20%** → **–10%**, builds in **1 slot**  
 - **Manufactories** and other multipliers implied but not specified in this section  
@@ -81,7 +80,7 @@ Development-cost malus for Tropical, Arctic, and Arid provinces is **removed**.
 ### Great Projects Nerfed
 
 - **Golden City** (Hungary): interest per annum **–0.5 & –1** → **–0.2 & –0.5**  
-- **Baku Atesgesh** (Persia): all military modifiers removed except **fire damage received**  
+- **Baku Atesgesh** (Persia): all military modifiers removed except **fire damage received** and **culture conversion cost **
 - **Prahbanan Temple** (Java): dev cost tiers: **–2%, –5%, –10%** → **–1%, –2%, –5%**
 
 ---
