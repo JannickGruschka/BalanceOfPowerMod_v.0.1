@@ -1,81 +1,121 @@
-# About 
+# Mod Name
 
-Balancing Mod for EU4 Multiplayer rounds
-It will include
-
-- [Quality of Life Changes](#quality-of-life-changes)
-- [General Changes](#general-changes)
-  - [Prosperity](#prosperity)
-  - [Buildings](#buildings)
-  - [Tech](#tech)
-  - [Terrain Modifiers](#terrain-modifiers)
-  - [Estates](#estates)
-  - [Natives](#natives)
-  - [Monuments / Great Projects](#monuments--great-projects)
-- [Starting Conditions](#starting-conditions)
+A Europa Universalis IV mod with major balance and QoL improvements.
 
 ---
 
-# Quality of Life Changes
+## 📋 Table of Contents
+
+- [Quality of Life Changes](#quality-of-life-changes)  
+- [General Changes](#general-changes)  
+  - [Encourage Development Edict](#encourage-development-edict)  
+  - [Buildings](#buildings)  
+  - [Admin Tech Changes](#admin-tech-changes)  
+  - [Terrain Modifiers](#terrain-modifiers)  
+  - [Straight Crossings Added](#straight-crossings-added)  
+  - [Cossack Estate](#cossack-estate)  
+  - [Great Projects Nerfed](#great-projects-nerfed)  
+- [Starting Conditions](#starting-conditions)  
+- [Changelog](#changelog)  
+
+---
+
+## Quality of Life Changes
 
 - Can ally someone at any opinion level  
-- Will get **100% warscore** after **1 year** of full occupying a nation  
-- **Abdicate** prestige cost: **–50** → **–25**  
+- Gain **100% warscore** after **1 year** of full occupying a nation  
+- Abdicate and disenherit cost now **25 prestige**  
 - Prestige hit from declining a call to arms is **removed**  
 - National focus can be changed every **5 years**  
 - **35% idea percentage**, **1/1/1 ideas** enforced  
+- Stability hit for breaking alliance in war: **0**  
+- Warning duration now **10 years**  
+- Coalitions now last only **10 years**  
+- Abandon union is **prestige‐free**  
+- Mercantilism cost: **50** (was 100)  
+- Move trade port cost: **100** (was 200)  
+- Abandon core is now **free**
 
 ---
 
-# General Changes
+## General Changes
 
-## Prosperity
-- Goods Produced: **25%** → **15%**  
-- Development Cost: **–10%** → **–5%**  
-- **Encourage Development Edict**:  
-  - Development Cost: **–10%** → **–25%**  
-  - Build Time: *(unspecified)*  
+### Encourage Development Edict
 
-## Buildings
-- **Temples**: Tax: **40%** → **50%**, plus **1% local missionary strength**  
-- **Cathedral**: Tax: **60%** → **100%**  
-- **Regimental Camp**: Forcelimit: **1** → **0.75**  
-- **Conscription Center**: Forcelimit: **2** → **1.5**  
-- **University**: Development Cost: **–20%** → **–10%**  
-  - Cost reduced to **200** (buildingslot now)  
-- **Manufactories**: Goods Produced: **1** → **0.8**  
-- **Soldiers House Hold**: Local Manpower: **75%** → **60%**  
+- Development Cost modifier: **–10%** → **–25%**  
+- Build Time: *(no change specified)*  
 
-## Tech
-- Admin Tech **17**, **23**, & **27**: Development Cost Modifier: **–10%** → **–5%**  
+### Buildings
 
-## Terrain Modifiers
-- **Jungle**: Development cost: **+35%** → **+30%**  
-- **Desert**: **+50%** → **+35%**  
-- **Coastal Desert**: **+35%** → **+20%**  
-- **Coastline**: **+15%** → **+5%**  
-- **Savannahs**: **+15%** → **+10%**  
-- **Straight Crossings** added (e.g. between Kent and Calais); more to follow  
-- Development cost malus for Tropical and Arid provinces is **removed**  
+- **Temples**: Tax + local missionary strength  
+- **Cathedral**: Tax: **60%** → **80%**  
+- **University**: Dev Cost: **–20%** → **–10%**, builds in **1 slot**  
+- **Manufactories** and other multipliers implied but not specified in this section  
 
-## Estates
+### Admin Tech Changes
+
+- At admin techs **17**, **23**, and **27**: Dev Cost modifier: **–10%** → **–5%**
+
+### Terrain Modifiers
+
+- Jungle: **+35%** → **+30%**  
+- Desert: **+50%** → **+35%**  
+- Coastal Desert: **+35%** → **+25%**  
+- Coastline: **+15%** → **+5%**  
+- Savannahs: **+15%** → **+10%**  
+
+### Straight Crossings Added
+
+- Between **Kent** and **Calais**  
+- Between **Calabria** and **Corfu**  
+- Between **Japan** and **Korea**  
+- In **Malaysia**
+
+Development-cost malus for Tropical, Arctic, and Arid provinces is **removed**.
+
 ### Cossack Estate
+
 - Cavalry combat ability from estate: **+20%** → **+10%**  
-- Cavalry cost from estate: **–20%** → **–10%**  
+- Cavalry cost modifier from estate: **–20%** → **–10%**
 
-## Natives
-- Natives outside of Mexico and Peru have been **removed**, including from Australia  
+### Great Projects Nerfed
 
-## Monuments / Great Projects
-- **Golden City** (Hungary):  
-  - Interest per annum: **–0.5 & –1** → **–0.2 & –0.5**  
-- **Baku Atesgesh** (Zoroastrian monument in Persia):  
-  - Removed every military modifier except **fire damage received**  
-- **Prahbanan Temple** (Java):  
-  - Dev cost reduction tiers: **–2%, –5%, –10%** → **–1%, –2%, –5%**  
+- **Golden City** (Hungary): interest per annum **–0.5 & –1** → **–0.2 & –0.5**  
+- **Baku Atesgesh** (Persia): all military modifiers removed except **fire damage received**  
+- **Prahbanan Temple** (Java): dev cost tiers: **–2%, –5%, –10%** → **–1%, –2%, –5%**
 
 ---
 
 ## Starting Conditions
-- **All African nations** start with **Tech Level 3**
 
+- All **African nations** start with **tech level 3**  
+- Germany starts with **Admin 13**  
+- Deccan starts with **Admin 10**  
+- Colonial nerfs:  
+  - No force requirement to over‐lord  
+  - “Self‐covering colony”: removed development cost  
+  - “Private-enterprise” goods produced modifier removed
+
+---
+
+## Changelog
+
+### v1.0.0 (Initial Release)
+
+- Implemented **Quality of Life Changes** as detailed above  
+- Added **Encourage Development Edict**  
+- Nerfed **buildings**: Temples, Cathedrals, Universities  
+- Adjusted **Admin Tech** development modifiers  
+- Rebalanced **terrain development costs**  
+- Added **straight crossings** between key provinces  
+- Removed development malus for Tropical, Arctic, and Arid provinces  
+- Tweaked the **Cossack Estate** cavalry modifiers  
+- Nerfed **Great Projects** (Golden City, Baku Atesgesh, Prahbanan Temple)  
+- Adjusted **starting conditions** for selected nations and colonial mechanics
+
+---
+
+*Feel free to customize further (e.g. version numbers, feature highlights)!*
+
+Let me know if you’d like to add installation instructions, license, or other sections.
+::contentReference[oaicite:0]{index=0}
