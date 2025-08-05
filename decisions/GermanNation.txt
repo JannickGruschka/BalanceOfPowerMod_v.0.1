@@ -154,7 +154,7 @@ country_decisions = {
 						has_country_flag = remove_germany_tech_requirement_flag
 					}
 				}
-				adm_tech = 18
+				adm_tech = 13
 			}
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
