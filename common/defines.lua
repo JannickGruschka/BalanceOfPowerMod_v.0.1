@@ -151,9 +151,9 @@ NDiplomacy = {
 	SCALED_TRUCE_YEARS = 10,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
 	REQUEST_HEIR_TRUCE = 5,
 	REQUEST_HEIR_AE = 20,
-	WARNING_YEARS = 20,								-- Years before warning expire
+	WARNING_YEARS = 10,								-- Years before warning expire
 	ANNUL_TREATIES_YEARS = 10,						-- Years before annul treaties expire
-	COALITION_YEARS = 20,							-- Years before coalition expire
+	COALITION_YEARS = 10,							-- Years before coalition expire
 	REVANCHISM_MONTHLY_DECAY = 0.833,			-- about 20 years to decay all of it.
 	MONARCH_GOV_CHANGE_LEGITIMACY_PENALTY = 0.0,	-- Penalty(%) on the legitimacy when changing gov type to the monarchy
 	EXTEND_REGENCY_LEGITIMACY_PENALTY = 10,  		-- Penalty for extending a regency
@@ -351,7 +351,7 @@ NDiplomacy = {
 	DIPLOMAT_SPEED = 20.0,							-- DIPLOMAT_SPEED
 	DIPLOMAT_COOLDOWN_TIME = 1,						-- DIPLOMATIC ACTION COOLDOWN IN MONTHS
 	MIN_RELATIONS_TO_ALLY = -200,						-- Alliances not possible if either country has an opinion of the other lower than this
-	MIN_RELATIONS_TO_SUPPORT_INDEPENDENCE = -25,	-- Support Independence not possible if either country has an opinion of the other lower than this
+	MIN_RELATIONS_TO_SUPPORT_INDEPENDENCE = -200,	-- Support Independence not possible if either country has an opinion of the other lower than this
 
 	ELECTIVE_VICTORY_PRESTIGE = 25,				-- Prestige for getting a heir from your country onto the throne of an elective nation
 	ELECTIVE_VICTORY_LEGITIMACY = 10,				-- Legitimacy for getting a heir from your country onto the throne of an elective nation
@@ -359,7 +359,7 @@ NDiplomacy = {
 	INTEGRATE_UNION_MIN_YEARS = 50,					-- Number of years before a union can be integrated
 	INTEGRATE_VASSAL_MIN_YEARS = 10,				-- Number of years before a vassal can be integrated
 
-	MONTHS_BEFORE_TOTAL_OCCUPATION = 60,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
+	MONTHS_BEFORE_TOTAL_OCCUPATION = 12,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
 
 	WAR_REPARATIONS_FACTOR = 0.1,
 	WAR_REPARATIONS_YEARS = 10,
@@ -409,7 +409,7 @@ NDiplomacy = {
 	BREAK_ALLIANCE_DIPLOREP_FACTOR = 3,				-- AI acceptance factor per diplomatic reputation
 	AE_COALITION_THRESHOLD = -50,					-- Coalitions can form below this amount of AE opinion
 	
-	ABANDON_UNION_PRESTIGE = -25,					-- The change in prestige for the overlord when abandoning a personal union.
+	ABANDON_UNION_PRESTIGE = 0,					-- The change in prestige for the overlord when abandoning a personal union.
 
 	PAY_SUBJECT_DEBT_LIBERTY_DESIRE_REDUCTION = 5,	-- Amount of liberty desire the subject loses per paid loan
 
@@ -518,10 +518,10 @@ NCountry = {
 	ABDICATE_AGE_THRESHOLD = 60,
 	ABDICATE_RULING_LENGTH_THRESHOLD = 20,
 	ABDICATE_LEGITIMACY_HIT = -20,
-	ABDICATE_PRESTIGE_HIT = -50,
+	ABDICATE_PRESTIGE_HIT = -25,
 
 
-	DISINHERIT_PRESTIGE_HIT = -50,
+	DISINHERIT_PRESTIGE_HIT = -25,
 	DISINHERIT_PRESTIGE_THRESHOLD = 0,
 	
 	ADVISOR_MIN_DEFAULT_AGE = 18, 				--Default value used for defining new advisors in script
@@ -635,7 +635,7 @@ NCountry = {
 
 	ALLOW_FEMALE_GENERALS = 0,
 	FEMALE_ADVISOR_CHANCE = 2,						-- If Women in History is enabled, chance of an advisor (or general if permitted) spawning as female
-	MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 0.5,
+	MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 0.35,
 
 	RANDOM_LUCKY_BASE_WEIGHT = 100,					-- Base weight given to each nation when rolling for random lucky
 	RANDOM_LUCKY_DEVELOPMENT_WEIGHT = 0.4,			-- Extra weight given for each base development when rolling for random luck
@@ -720,7 +720,7 @@ NCountry = {
 	BASE_POWER_INCREASE = 3,						-- monthly base increase
 	NAT_FOCUS_DECREASE = -1,							-- power taken away from non national focus power
 	NAT_FOCUS_INCREASE = 2,							-- extra power given to national focus power
-	NAT_FOCUS_YEARS = 25,							-- years before you can change focus again
+	NAT_FOCUS_YEARS = 5,							-- years before you can change focus again
 	NAT_FOCUS_YEARS_RANK = 5,						-- how many years are removed from nat focus cooldown per gov rank above 1
 	POWER_MAX = 999,								-- how much power can be stored at maximum.
 	DISMANTLE_HRE_PRESTIGE = 0,						-- Prestige gain on dismantling HRE
@@ -754,12 +754,12 @@ NCountry = {
 	PS_DEMAND_NON_WARGOAL_PEACE_PRIMITIVES = 0,
 	PS_MAKE_PROVINCE_CORE = 10,
 	PS_REDUCE_INFLATION = 75,
-	PS_PROMOTE_MERCANTILISM = 100,
+	PS_PROMOTE_MERCANTILISM = 50,
 	PS_MOVE_CAPITAL = 200,
 	PS_MOVE_CAPITAL_EXTRA = 20,						-- Per 100 country development.
 	PS_MOVE_CAPITAL_DISTANCE = 10,					-- How many pixels distance per 1 Adm.
 	PS_MOVE_CAPITAL_DISTANCE_CAP = 300,				-- How much this penalty is allowed to cost in Adm.
-	PS_MOVE_TRADE_PORT = 200,
+	PS_MOVE_TRADE_PORT = 100,
 	PS_REPLACE_RIVAL = 100,
 	PS_SEIZE_COLONY = 25,
 	PS_BURN_COLONY = 5,
@@ -816,7 +816,7 @@ NCountry = {
 
 	DISHONOURED_ALLIANCE_DURATION = 1800,
 
-	CALL_ALLY_DECLINE_PRESTIGE_PENALTY = -25.0,		-- Prestige penalty for declining call for arms
+	CALL_ALLY_DECLINE_PRESTIGE_PENALTY = 0,		-- Prestige penalty for declining call for arms
 	CLAIM_THRONE_PRESTIGE_PENALTY = -20.0,			-- Prestige penalty when claiming throne
 	BREAK_VASSAL_PRESTIGE_PENALTY = -25.0,			-- Prestige penalty when break vassalisation
 	BREAK_MARRIAGE_PRESTIGE_PENALTY = -10,			-- Prestige penalty when break royal marriage
@@ -837,7 +837,7 @@ NCountry = {
 	CORE_LOSE_CULTURE_GROUP =150,					-- how many years until a core in a country's culture group is lost.
 	CORE_LOSE_PRIMARY_CULTURE_TAG = -1,				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
 	CORE_LOSE_PRESTIGE = -10.0,						-- Prestige change when lost core
-	ABANDON_CORE_PRESTIGE = -10.0,					-- The cost of abandoning a core that some other country owns.
+	ABANDON_CORE_PRESTIGE = 0,					-- The cost of abandoning a core that some other country owns.
 	ABANDON_IDEAGROUP_REFUND = 0.10,				-- The part of the idea group spent that will be refunded upon abandonment.
 	NEIGHBOURBONUS = -0.05, 						-- _CDEF_NEIGHBOURBONUS_
 	NEIGHBOURBONUS_CAP = -0.75, 					-- _CDEF_NEIGHBOURBONUS_CAP_
@@ -2684,7 +2684,7 @@ NNationDesigner = {
 	MEMBER_OF_HRE_COST = 20,				-- Cost for being part of the HRE (base)
 	MEMBER_OF_HRE_PROVINCE_COST = 0.2,		-- Cost for being part of the HRE (extra cost multiplier on provinces)
 	TECH_GROUP_NO_NEIGHBOUR_COST = 20,		-- If no neighbour of this tech group, cost is increased by this amount
-	IDEAS_PERCENTAGE_LIMIT = 50,			-- Max % from any one category to not get overstacking penalty
+	IDEAS_PERCENTAGE_LIMIT = 35,			-- Max % from any one category to not get overstacking penalty
 	IDEAS_LIMIT_PENALTY = 5,				-- All ideas are this much more expensive for overstacking (at 100% stacking)
 	IDEAS_LEVEL_COST_1 = 0,					-- Can be overriden in script
 	IDEAS_LEVEL_COST_2 = 5,
