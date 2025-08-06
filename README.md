@@ -118,7 +118,3 @@ Development-cost malus for Tropical, Arctic, and Arid provinces is **removed**.
 - Forts can not be built in adjacent provinces to another forts
 ---
 
-*Feel free to customize further (e.g. version numbers, feature highlights)!*
-
-Let me know if you’d like to add installation instructions, license, or other sections.
-::contentReference[oaicite:0]{index=0}
