@@ -50,6 +50,7 @@ A Europa Universalis IV mod with major balance and QoL improvements.
 - **Cathedral**: Tax: **60%** → **80%**  
 - **University**: Dev Cost: **–20%** → **–10%**, builds in **1 slot**  
 - **Manufactories** and other multipliers implied but not specified in this section  
+- **Forts** can not be built in adjacent provinces to another fort
 
 ### Admin Tech Changes
 
@@ -112,6 +113,9 @@ Development-cost malus for Tropical, Arctic, and Arid provinces is **removed**.
 - Nerfed **Great Projects** (Golden City, Baku Atesgesh, Prahbanan Temple)  
 - Adjusted **starting conditions** for selected nations and colonial mechanics
 
+### v1.1.0
+
+- Forts can not be built in adjacent provinces to another forts
 ---
 
 *Feel free to customize further (e.g. version numbers, feature highlights)!*
