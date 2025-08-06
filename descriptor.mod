@@ -1,4 +1,4 @@
-name="BalanceOfPowerMod_v0.1"
+name="Balance of Power Multiplayer Mod"
 version="1.37.5.0"
 picture="thumbnail.png"
 tags={
