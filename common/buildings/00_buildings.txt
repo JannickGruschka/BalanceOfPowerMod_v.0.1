@@ -426,22 +426,9 @@ fort_15th = {
 	}
 
 	build_trigger = {
-		NOT = {
-			any_neighbor_province = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-					has_construction = fort_15th
-					has_construction = fort_16th
-					has_construction = fort_17th
-					has_construction = fort_18th
-				}
-				owned_by = ROOT
-			}
-		}
+		NOT = { forts_adjacent_block = yes }
 	}
+
 
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -944,22 +931,9 @@ fort_16th = {
 	}
 
 	# Prevents Forts of any kind ( list ) to be built adjacent to another
+
 	build_trigger = {
-		NOT = {
-			any_neighbor_province = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-					has_construction = fort_15th
-					has_construction = fort_16th
-					has_construction = fort_17th
-					has_construction = fort_18th
-				}
-				owned_by = ROOT
-			}
-		}
+		NOT = { forts_adjacent_block = yes }
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1580,22 +1554,9 @@ fort_17th = {
 	}
 
 	# Prevents Forts of any kind ( list ) to be built adjacent to another
+
 	build_trigger = {
-		NOT = {
-			any_neighbor_province = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-					has_construction = fort_15th
-					has_construction = fort_16th
-					has_construction = fort_17th
-					has_construction = fort_18th
-				}
-				owned_by = ROOT
-			}
-		}
+		NOT = { forts_adjacent_block = yes }
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -2124,21 +2085,7 @@ fort_18th = {
 
 	# Prevents Forts of any kind ( list ) to be built adjacent to another
 	build_trigger = {
-		NOT = {
-			any_neighbor_province = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-					has_construction = fort_15th
-					has_construction = fort_16th
-					has_construction = fort_17th
-					has_construction = fort_18th
-				}
-				owned_by = ROOT
-			}
-		}
+		NOT = { forts_adjacent_block = yes }
 	}
 
 	make_obsolete = fort_17th

@@ -1,0 +1,15 @@
+forts_adjacent_block = {
+	any_neighbor_province = {
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+			has_construction = fort_15th
+			has_construction = fort_16th
+			has_construction = fort_17th
+			has_construction = fort_18th
+		}
+		owned_by = ROOT
+	}
+}
