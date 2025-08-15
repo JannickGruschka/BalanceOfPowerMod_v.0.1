@@ -1,0 +1,41 @@
+country_decisions = {
+  remove_migratory_natives = {
+    potential = {
+      is_player = yes
+      any_country = {
+        tag = ENG
+        tag = FRA
+        tag = SPA
+        tag = POR
+        tag = HAB
+        tag = RUS
+        # Add other tags as desired
+      }
+    }
+    allow = {
+      not = { has_global_flag = natives_removed }
+    }
+    effect = {
+      every_province = {
+        limit = {
+          owner = { government = native }
+          OR = {
+            region = north_america
+            region = south_america
+          }
+          NOT = { region = mesoamerica }
+          NOT = { region = andes }
+        }
+        set_owner = NONE
+        set_controller = NONE
+      }
+      set_global_flag = natives_removed
+    }
+    ai_will_do = {
+      factor = 0
+    }
+    allow_tooltip = {
+      text = allow_remove_migratory_natives
+    }
+  }
+}
