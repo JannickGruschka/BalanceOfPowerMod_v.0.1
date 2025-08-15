@@ -2801,7 +2801,7 @@ rus_religious_zeal = {	#Permanent
 }
 
 rus_western_military_tactics = {	#Permanent
-	discipline = 0.05
+	discipline = 0
 }
 
 rus_bureaucratic_adm_focus = {
