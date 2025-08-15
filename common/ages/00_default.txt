@@ -235,7 +235,7 @@ age_of_discovery = {
 				tag = POR
 			}
 			modifier = {
-				global_colonial_growth = 50
+				global_colonial_growth = 25
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -781,7 +781,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				amount_of_banners = 0.5
+				amount_of_banners = 0.25
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -977,7 +977,7 @@ age_of_revolutions = {
 				}
 			}
 			modifier = {
-				fire_damage_received = -0.2
+				fire_damage_received = -0.1
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -1029,7 +1029,7 @@ age_of_revolutions = {
 				}
 			}
 			modifier = {
-				morale_damage_received = -0.2
+				morale_damage_received = -0.1
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
