@@ -1,4 +1,0 @@
-﻿l_english:
-  mp_remove_migratory_natives_title:0 "Clear Migratory Natives (MP Host)"
-  mp_remove_migratory_natives_desc:0 "Removes migratory natives from the North America super-region [and South America outside the Andes], turning those provinces into uncolonized land. Only one player needs to click this once per save."
-  mp_remove_migratory_natives_tt:0 "§YAll provinces in the North America super-region owned by primitive nations will be decolonized.§!\n§gCentral America and the Andes are not touched.§!"
