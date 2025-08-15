@@ -1,0 +1,34 @@
+country_decisions = {
+
+  mp_remove_migratory_natives = {
+    picture = generic_colony_decision
+    major = yes
+
+    potential = {
+      ai = no
+      NOT = { has_global_flag = mp_natives_removed }
+      OR = {
+        tag = AUS tag = ENG tag = FRA tag = CAS tag = POR
+        tag = POL tag = MOS tag = HAB tag = LIT tag = SWE
+        tag = DAN tag = BUR tag = NED tag = SCO tag = NOR
+        tag = MAM tag = TUR tag = MNG tag = BRA
+        # add/remove tags you use in your MP lobbies
+      }
+    }
+
+    allow = { always = yes }
+
+    effect = {
+      custom_tooltip = mp_remove_migratory_natives_tt
+      hidden_effect = {
+        set_global_flag = mp_natives_removed
+        remove_migratory_natives_NA = yes
+        # UNCOMMENT the next line if you also want SA (excl. Andes)
+        # remove_migratory_natives_SA_excl_Andes = yes
+      }
+    }
+
+    ai_will_do = { factor = 0 }
+  }
+
+}
